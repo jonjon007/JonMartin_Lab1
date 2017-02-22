@@ -27,8 +27,4 @@ public class Retirement {
 			Math.round(TotalSaved * 100) / 100.0));
 		System.out.print(String.format("$%.2f each month." ,Math.round(MonthlySavings * 100) / 100.0));
 	}
-	
-	//private double getMontlyDraw(int reqInc, int ssi){
-		//return reqInc - ssi;
-	//}
 }
